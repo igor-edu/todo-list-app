@@ -1,0 +1,28 @@
+.TodoList {
+    width: 90%;
+    margin: 40px auto;
+    padding: 10px 1px 10px 0;
+    background-color: #f06d7c;
+    color: #edf6f9;
+    text-align: center;
+    max-width: 500px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 15px 5px #9b7e81; 
+    box-shadow: 5px 5px 15px 5px #9b7e81;
+}
+
+.TodoList header {
+    padding: 0 1.2rem;
+}
+
+.TodoList h1 {
+    margin: 10px 0 0;
+    text-align: left;
+}
+
+.TodoList p {
+    margin: 0 0 40px;
+    text-align: left;
+    border-bottom: 2px solid #ff8f9c;
+    padding-bottom: 8px;
+}

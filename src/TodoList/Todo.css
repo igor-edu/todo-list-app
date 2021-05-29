@@ -1,0 +1,79 @@
+.Todo {  
+    background-color: #ff8f9c;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    opacity: 0;
+    height: 0px;
+    padding: 0px 0px 0px 0rem;
+    margin-top: 0px;
+    transition: all 0.6s linear;
+}
+
+.Todo.fade {
+    opacity: 1;
+    height: 50px;
+    padding: 5px 5px 5px 1rem;
+    margin-top: 5px;
+}
+
+.Todo span {
+    overflow: hidden;
+    padding-right: 5px;
+    flex-grow: 1;
+    max-height: 40px;
+}
+
+.Todo span.strikethrough {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.Todo button {
+    background-color: #f06d7c;
+    color: #edf6f9;
+    margin-left: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.Todo button:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.Todo button:nth-child(2) {
+    color:#edf6f9;
+}
+
+.Todo button:nth-child(2):hover {
+    color:#edf6f9;
+}
+
+.Todo button:nth-child(2).strikethrough {
+    color:rgba(0, 0, 0, 0.7);
+}
+
+.Todo button:nth-child(2).strikethrough:hover {
+    color:rgba(0, 0, 0, 0.7);
+}
+
+.Todo form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Todo form input {
+    margin-right: auto;
+    border-radius: 2px;
+    padding: 4px 10px;
+    background-color: #edf6f9;
+    outline: none;
+    border: none;
+    flex-grow: 1;
+}
+
